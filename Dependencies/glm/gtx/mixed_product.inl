@@ -1,22 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// OpenGL Mathematics Copyright (c) 2005 - 2013 G-Truc Creation (www.g-truc.net)
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// Created : 2007-04-03
-// Updated : 2008-09-17
-// Licence : This source is under MIT License
-// File    : glm/gtx/mixed_product.inl
-///////////////////////////////////////////////////////////////////////////////////////////////////
-
-namespace glm
-{
-	template <typename valType> 
-	GLM_FUNC_QUALIFIER valType mixedProduct
-	(
-		detail::tvec3<valType> const & v1, 
-		detail::tvec3<valType> const & v2, 
-		detail::tvec3<valType> const & v3
-	)
-	{
-		return dot(cross(v1, v2), v3);
-	}
-}//namespace glm
+version https://git-lfs.github.com/spec/v1
+oid sha256:a76353b95349765b3b49f8ef22ad7b33b730b7b2decd26f92658997478353f45
+size 798

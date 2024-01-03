@@ -1,18 +1,3 @@
-#pragma once
-
-#include <vector>
-#include <glew.h>
-#include <glfw3.h>
-#include <glm.hpp>
-#include <gtc\matrix_transform.hpp>
-#include <gtc\type_ptr.hpp>
-#include "mesh.h"
-
-class MeshLoaderObj
-{
-	public:
-		MeshLoaderObj();
-		Mesh loadObj(const std::string &filename, std::vector<Texture> textures);
-		Mesh loadObj(const std::string &filename);
-};
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:93f3a34aa0da4d0736f6f9620407f8a66606005a3fac3de08f4ea6464ef5ddeb
+size 432
